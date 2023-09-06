@@ -1,0 +1,57 @@
+body{
+    background-color: var(--Neutral-Dark);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.card .advice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Neutral-medium);
+    width: 386px;
+    margin: 20px;
+    padding-inline: 50px;
+    border-radius: 15px;
+}
+
+.card .advice .advice-number{
+    font-size: 15px;
+    letter-spacing: 5px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: var(--primary-medium);
+}
+
+.card .advice .advice-random{
+    font-size: 23px;
+    padding: 23px ;
+    text-align: center;
+    color: var(--primary-soft);
+}
+
+.card .advice .advice-update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-medium);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+.advice .advice-update:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--primary-medium);
+}
