@@ -1,4 +1,4 @@
-# Frontend Mentor - solução de componente de código QR
+# Frontend Mentor - Advice generator app solution
 
 Esta é uma solução para o [Desafio do aplicativo gerador de conselhos no Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
